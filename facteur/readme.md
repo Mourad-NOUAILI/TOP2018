@@ -7,7 +7,7 @@
 * Depth First Search (DFS)
 * C++
 
-__```If you wann learn about graphs, please see my write up:``` [graph theory](../../../../Graph-theory)__
+__```If you wann learn about graphs, please see my write up:``` [graph theory](../../../../Graph-theory)__ (In construction)
 
 ## The K12-graph
 
