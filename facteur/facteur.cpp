@@ -30,8 +30,6 @@ bool canVisit(int v1, int v2) {
 }
 
 void dfs_visit(int v){
-  //Mark the current node as visited and
-  // print it
   visited[v] = true;
 
   paths[pathIndex] = v;
@@ -43,13 +41,9 @@ void dfs_visit(int v){
   cout << endl;
   }
 
-  // Recur for all the vertices adjacent
-  // to this vertex
   list<int>::iterator i;
   for (i = adjList[v].begin(); i != adjList[v].end(); ++i)
     if (!visited[*i]) {
-      //cout << v << " " << *i << " " << canVisit(v, *i) << '\n';
-      //int a; cin >> a;
      if (canVisit(v, *i))
         dfs_visit(*i);
     }
@@ -66,17 +60,15 @@ void dfs_visit(int v){
 
 void dfs(int v){
   paths = new int[V];
-  pathIndex = 0; // Initialize path[] as empty
+  // Initialize path[] as empty
+  pathIndex = 0;
+  
   maxLenPath = 0;
 
-  // Mark all the vertices as not visited
   for (auto& kv: adjList) {
     visited[kv.first] = false;
   }
   
-  
-  // Call the recursive helper function
-  // to print DFS traversal
   dfs_visit(v);
 }
 
@@ -87,9 +79,6 @@ int main() {
   
   createAdjList(E);
 
- //int start;
-
-  //scanf("%d", &start);
   for (auto& kv: adjList) {
     int start = kv.first;
     dfs(start);
