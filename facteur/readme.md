@@ -28,9 +28,11 @@ Generated input: [input](input)
 
 This script will generate the file 'input' which will contains the input in this format:
   
-```line #1: two space seperated integers _12_ and _66_. _12_ is the number of vertices and _66_ the number of edges.
+```
+line #1: two space seperated integers _12_ and _66_. _12_ is the number of vertices and _66_ the number of edges.
   
-for the 66th next lines, we have two space seperated intgers in each line, which indicates the edge.```
+for the 66th next lines, we have two space seperated intgers in each line, which indicates the edge.
+```
   
   
  ## Coding
