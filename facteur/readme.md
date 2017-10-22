@@ -1,4 +1,4 @@
-# Solving of the "factor" problem with a DFS on a K~12~ graph
+# Solving of the "factor" problem with a DFS on a K12 graph
 
 
 ## Reader's background (Yep, I mean you :) )
