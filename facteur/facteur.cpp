@@ -34,12 +34,6 @@ void dfs_visit(int v){
 
   paths[pathIndex] = v;
   pathIndex++;
-  
-  if (pathIndex == V) {
-     for (int i = 0 ; i<pathIndex ; ++i)
-    cout << paths[i] << " ";
-  cout << endl;
-  }
 
   list<int>::iterator i;
   for (i = adjList[v].begin(); i != adjList[v].end(); ++i)
