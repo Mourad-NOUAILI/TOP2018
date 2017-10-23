@@ -1,6 +1,6 @@
 # Solving of the "Postman" problem with a DFS on a K12 graph
 
-## Problem: (Tour-1 of the preselection of TOP2018)
+## Problem: (TOP2018's pre-selection contest)
 
 A postman delivers mails as follows:
 - He can start with any house.
