@@ -1,5 +1,14 @@
-# Solving of the "factor" problem with a DFS on a K12 graph
+# Solving of the "Postman" problem with a DFS on a K12 graph
 
+## Problem: (Tour-1 of the preselection of TOP2018)
+
+A postman delivers mails as follows:
+- He can start with any house.
+- He delivers the mail of the next house, if and only if, its number is composed by at least one digit of the number of the previous house.
+
+He wanna deliver the mails of these houses: 11, 29, 19, 36, 40, 44, 52, 61, 70, 74, 83, 47.
+
+__How many houses at maximum, the postman can deliver their mails at one run ?__
 
 ## Reader's background (Yep, I mean you :) )
 
