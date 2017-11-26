@@ -14,6 +14,7 @@ int main() {
 
   int pos = 1;
   while (!found[pos]) {
+    assert(pos <= 15);
     int r =  (rand() % 3) + 1;
 
     auto it = hasChosen.find(r);
